@@ -4,12 +4,13 @@ try:
 except ImportError:
     DEBUG = True
 
+ADMINS = [('JJ Vens', 'jj@rtts.eu')]
 SECRET_KEY = 'tmozf2g6ox%z_ri__tru10fjmhbf(digbhkox__0mlx(df$*@i'
 ALLOWED_HOSTS = ['*']
 ROOT_URLCONF = 'project.urls'
 WSGI_APPLICATION = 'project.wsgi.application'
 LANGUAGE_CODE = 'nl'
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Amsterdam'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
