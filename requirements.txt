@@ -2,4 +2,4 @@ Django
 django-extensions
 psycopg2 --no-binary psycopg2
 git+https://github.com/rtts/django-simplesass.git
-# git+https://github.com/rtts/django-simplecms.git
+git+https://github.com/rtts/django-simplecms.git
