@@ -1,9 +1,10 @@
 $black: #1c1914;
 $color1: #f2e3c7;
 
-html {
+html, body {
   color: $black;
   background: $color1;
+  font-family: monospace;
 }
 
 header {
