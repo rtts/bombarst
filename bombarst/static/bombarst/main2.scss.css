@@ -3,6 +3,9 @@ html, body {
   background: #f2e3c7;
   font-family: monospace; }
 
+button {
+  font-family: monospace; }
+
 header {
   margin: 1em 0; }
   header img {
