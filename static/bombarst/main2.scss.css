@@ -1,23 +1,13 @@
-$black: #1c1914;
-$color1: #f2e3c7;
-
 html, body {
-  color: $black;
-  background: $color1;
-  font-family: monospace;
-}
-
-button {
-  font-family: monospace;
-}
+  color: #1c1914;
+  background: #f2e3c7;
+  font-family: monospace; }
 
 header {
-  margin: 1em 0;
-  img {
+  margin: 1em 0; }
+  header img {
     display: block;
-    width: 100%;
-  }
-}
+    width: 100%; }
 
 section:before {
   content: '';
@@ -29,5 +19,6 @@ section:before {
   top: -1em;
   background-image: url(line.svg);
   background-size: contain;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
+
+/*# sourceMappingURL=main2.scss.css.map */
