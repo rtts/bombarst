@@ -7,7 +7,7 @@ distlib==0.3.4
 Django==4.0.1
 django-embed-video==1.4.1
 django-extensions==3.1.5
-django-simplecms==1.0.6
+django-simplecms==1.0.7
 django-tidy==0.1
 easy-thumbnails==2.8.1
 filelock==3.4.2
