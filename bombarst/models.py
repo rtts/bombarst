@@ -1,5 +1,5 @@
 from cms.decorators import page_model, section_model
-from cms.models import BasePage, BaseSection
+from cms.models import BasePage, BaseSection, fields
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
@@ -12,6 +12,7 @@ class Page(BasePage):
 @section_model
 class Section(BaseSection):
     page = models.ForeignKey(Page, related_name="sections", on_delete=models.PROTECT)
+    button = fields.CharField(_("Button"), blank=True)
 
 
 class SectionImage(models.Model):

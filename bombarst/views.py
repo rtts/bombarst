@@ -7,7 +7,7 @@ from django.utils.translation import gettext_lazy as _
 @section_view
 class Text(SectionView):
     verbose_name = _("Text")
-    fields = ["content"]
+    fields = ["content", "button", "href"]
     template_name = "text.html"
 
 

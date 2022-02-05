@@ -11,6 +11,12 @@
         <div class="content">
             {% eval section.content %}
         </div>
+
+        {% if section.button %}
+            <div class="button">
+                <a class="button" href="{{ section.href }}">{{ section.button }}</a>
+            </div>
+        {% endif %}
     </div>
 
     {% editsection '<img src="/static/cms/edit.png">' %}

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-29 13:31+0100\n"
-"PO-Revision-Date: 2022-01-29 13:32+0100\n"
+"POT-Creation-Date: 2022-02-05 10:59+0100\n"
+"PO-Revision-Date: 2022-02-05 11:00+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -17,7 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-#: bombarst/models.py:21
+
+#: bombarst/models.py:15
+msgid "Button"
+msgstr "Button"
+
+#: bombarst/models.py:22
 msgid "Image"
 msgstr "Afbeelding"
 
