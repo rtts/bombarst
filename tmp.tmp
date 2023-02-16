@@ -1,6 +1,0 @@
-COPY public.auth_user (id, password, last_login, is_superuser, username, first_name, last_name, email, is_staff, is_active, date_joined) FROM stdin;
-2	pbkdf2_sha256$150000$oeRfwc9HRUaU$mNRcmRQQ0or91SsEIBqQBOfnVLh3e5BkDwfY83WVEQw=	2019-10-15 14:43:07.374088+02	f	jordy				t	t	2019-04-02 17:00:22+02
-1	pbkdf2_sha256$150000$329wX82VgggB$X50PAwCw2CVPTpGHRWptpxZqxTtNeH7L/Q8PZBZXCdw=	2020-10-06 18:10:07.911116+02	t	jj				t	t	2019-04-02 16:24:36.280355+02
-3	pbkdf2_sha256$150000$1POP9DP14zoQ$cmFsuOKVakVzWATuv/xm+jtg1LIEfFqPp4UipQlDr24=	2020-10-06 22:27:35.223507+02	f	noel				t	t	2019-04-02 17:39:50+02
-4	pbkdf2_sha256$150000$AEyV2Voh6KdA$r3y2FtP9WDX5lZGk1fjHDrSnFgv8MHP1WMDUrlyA59k=	2021-03-08 12:21:29.138918+01	f	ad				t	t	2019-04-02 17:46:09+02
-\.

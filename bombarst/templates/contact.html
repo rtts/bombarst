@@ -12,6 +12,9 @@
                     {% include 'cms/formfield.html' with field=field %}
                 {% endfor %}
                 <button class="button" name="section" value="{{section.pk}}">{% trans 'Send' %}</button>
+                <p>
+                    Uw emailprogramma zal openen om het bericht te verzenden naar <b>ikwild@debombarst.nl</b>
+                </p>
             </form>
         </div>
     </div>
