@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="http://debombarst.nl/static/favicon.png">
+    <link rel="stylesheet" href="static/main.scss.css">
+    <link rel="stylesheet" href="static/hamburgers.css">
+    <title>
+      Bombarst - Homepage
+    </title>
+    <meta name="google-site-verification" content=
+    "lSHCoXOmuKUkN5vVonkZi69P-DA47XOq0v5-2Z-bBrs">
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <a href="index.html"><img src="static/logo_fc.svg"></a>
+      </div>
+    </header>
+
+    <nav>
+      <ul id="menu">
+        <li>
+          <a href="index.html" class="current">Homepage</a>
+        </li>
+      </ul>
+      <button class="hamburger hamburger--collapse" id='hamburger'><span class=
+      "hamburger-box"><span class="hamburger-inner"></span></span></button>
+    </nav>
+
+    <article>
+      <section class="text">
+        <div class="wrapper">
+          <div class="title">
+            <h1>
+              De bom is gebarsten
+            </h1>
+          </div>
+
+          <div class="content">
+            <p>
+              Wat een fantastisch feest was het! De bom is gebarsten, en hoe!
+              Alle mensen die er waren en bij hebben gedragen aan het benefiet:
+              ontzettend bedankt. We gaan de komende tijd de eerste
+              investeringen doen om de plek leefbaar te maken. We houden jullie
+              op de hoogte via de sociale media. Hier alvast de <a href=
+              "https://www.superformosa.nl/2019/bombarst/">foto’s van
+              Superformosa</a> en een video, gemaakt door <a href=
+              "https://madebyjane.photography/">Jane Duursma</a>:
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="video">
+        <div class="video">
+          <div class="iframe">
+            <video controls width="560" src="video.mkv"></video>
+          </div>
+        </div>
+      </section>
+
+      <section class="text">
+        <div class="wrapper">
+          <div class="title">
+            <h1>
+              Nog even, en de bom barst...
+            </h1>
+          </div>
+
+          <div class="content">
+            <p>
+              UPDATE
+            </p>
+
+            <p>
+              Op dit moment hebben we geen actieve eigen plek. Zodra dit weer
+              zo is, zal dat te lezen zijn op deze site en op onze
+              Facebook-pagina.
+            </p>
+
+            <p>
+              UPDATE
+            </p>
+
+            <p>
+              Op 24 augustus opent broedplaats De Bombarst voor het eerst haar
+              deuren. Vanuit alle krochten van de stad komen net-afgestudeerde
+              theatermakers, losgeslagen dichters, extreme levensgenieters,
+              doorgewinterde muzikanten en cultuur-verorberende bourgondiërs
+              bij elkaar om gezamenlijk de bom te laten barsten.
+            </p>
+
+            <p>
+              Stichting De Bombarst is net geboren en heeft als doel om het
+              culturele klimaat in Den Bosch een flinke boost te geven. In de
+              prachtige kapel van de Paap willen we een karakteristieke plek
+              creeëren waar makers, meemakers en mogelijkmakers elkaar
+              ontmoeten. Een plek waar diversiteit een must is, het heft in
+              eigen handen nemen een urgentie is en waar mensen elkaar
+              versterken.
+            </p>
+
+            <p>
+              Om dit mogelijk te maken is er een hoop nodig. Visie, durf,
+              doorzettingsvermogen, ruimte voor experiment, geld, spullen,
+              tijd, ruzie, koffie, knuffels, luieren, kletsen tot laat in de
+              avond en veel handjes uit de mouwen. Daarvoor organiseren we dit
+              benefietfeest.
+            </p>
+
+            <p>
+              Komt allen tezamen en spui rijkelijk je energie, geld, aandacht
+              en ideeën uit over de plek. Samen kunnen we ervoor zorgen dat de
+              bom gaat barsten!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="wrapper">
+          <div class="title">
+            <h1>
+              Wil je ook dat de bom barst? Neem contact op: UPDATE Op dit
+              moment hebben we geen actieve eigen plek. Zodra dit weer zo is,
+              zal dat te lezen zijn op deze site en op onze Facebook-pagina.
+              UPDATE
+            </h1>
+          </div>
+
+          <div class="form">
+            <form method="post" class="cms">
+              <input type="hidden" name="csrfmiddlewaretoken" value=
+              "yNjHwdpokgInwruJuzXaB3q3IBdOPevUu2kfHOad6P0d7OtpnGlz5LYk5TtCXoRl">
+              <div class="formfield body" id="formfield_body">
+                <div class="label">
+                  <label for="id_body">Uw bericht:</label>
+                </div>
+
+                <div class="input">
+                  <textarea name="body" cols="40" rows="10" id=
+                  "id_body"></textarea>
+                </div>
+              </div>
+              <button class="button" name="section" value="4">Verstuur</button>
+              <p>
+                Uw emailprogramma zal openen om het bericht te verzenden naar
+                <b>ikwild@debombarst.nl</b>
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <footer>
+    </footer>
+    <script>
+            document.addEventListener("DOMContentLoaded", function(event) {
+                var hamburger = document.getElementById('hamburger');
+                var menu = document.getElementById('menu');
+                hamburger.addEventListener('click', function(e) {
+                    hamburger.classList.toggle('is-active');
+                    menu.classList.toggle('visible');
+                });
+
+                var links = document.querySelectorAll('a');
+                for (var link of links) {
+                    var a = new RegExp('/' + window.location.host + '/');
+                    if (!a.test(link.href)) {
+                        link.addEventListener('click', function(event) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                            window.open(this.href, '_blank');
+                        });
+                    }
+                }
+            });
+    </script>
+  </body>
+</html>
