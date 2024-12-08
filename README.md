@@ -1,11 +1,11 @@
 De Bombarst
 ===========
 
-This repository contains the source code of [De
-Bombarst](https://bombarst.created.today/), a website created by
-[Return to the Source](https://rtts.eu/), provided here for everyone
-to use under the [GPLv3](LICENSE) license as part of our free and open
-source philosophy.
+This repository contains the source code of
+[bombarst.created.today](https://bombarst.created.today/), a website
+created by [Return to the Source](https://rtts.eu/), provided here for
+everyone to use under the [GPLv3](LICENSE) license as part of our free
+and open source philosophy.
 
 
 Installation
